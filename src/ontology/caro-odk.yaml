@@ -56,3 +56,7 @@ robot_java_args: '-Xmx12G'
 components:
   products:
     - filename: caro_bridge.owl
+
+git_main_branch: master
+workflows:
+  - qc

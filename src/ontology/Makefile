@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                dd717c1d4c1904e0f330f346cfbac251ba562d5e23fb4d824d74a742307a4014
+CONFIG_HASH=                62954afea753ef2ebcf7954fb788c20357bc328442f9b9edecddc48422ab8867
 
 
 # ----------------------------------------
@@ -689,7 +689,7 @@ dosdp-docs-default: $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_DEFAULT) $(DOSDP_YAML
 		       --template=$(PATTERNDIR)/dosdp-patterns \
 		       --batch-patterns="$(DOSDP_PATTERN_NAMES_DEFAULT)" \
 		       --outfile=$(DOCSDIR)/patterns/default \
-		       --data-location-prefix=https://github.com/obophenotype/caro/tree/main/src/patterns/data/default
+		       --data-location-prefix=https://github.com/obophenotype/caro/tree/master/src/patterns/data/default
 
 
 # Generate template file seeds
